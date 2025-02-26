@@ -1,6 +1,5 @@
 # phoenix_llm
 LLM observability with Phoenix
+[Phoenix](https://phoenix.arize.com/)
 
-
-# deploy
-docker compose up -d
+Imprementation of [Phoenix](https://phoenix.arize.com/) in Docker with [uv](https://astral.sh/uv/)
