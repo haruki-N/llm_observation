@@ -1,5 +1,8 @@
 .env
 .python-version
 .venv/*
-.ruff_cache/*
+.ruff_cache
+.chainlit
+chainlit.md
 *.ipynb
+*/__pycache__

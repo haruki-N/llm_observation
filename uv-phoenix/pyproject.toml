@@ -5,12 +5,16 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
-    "arize-phoenix>=8.2.1",
+    "arize-phoenix==7.0.0",
+    "arize-phoenix-otel==0.7.1",
+    "chainlit>=2.2.1",
     "duckdb>=1.2.0",
     "ipykernel>=6.29.5",
+    "langchain>=0.3.19",
+    "langchain-openai>=0.3.7",
     "openai>=1.64.0",
-    "openinference-instrumentation-openai>=0.1.21",
-    "phoenix>=0.9.1",
+    "openinference-instrumentation==0.1.21",
+    "openinference-instrumentation-openai==0.1.18",
     "python-dotenv>=1.0.1",
     "ruff>=0.9.7",
 ]
